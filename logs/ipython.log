@@ -1,0 +1,33 @@
+2025-06-18 16:16:44,019 INFO ipython === bench console session ===
+2025-06-18 16:16:44,019 INFO ipython import frappe
+frappe.db.get_tables()
+2025-06-18 16:16:44,019 INFO ipython \q
+2025-06-18 16:16:44,019 INFO ipython === session end ===
+2025-06-18 18:02:01,607 INFO ipython === bench console session ===
+2025-06-18 18:02:01,609 INFO ipython frappe.get_meta("Part Research").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("tabItem").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Request Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Purchase Receipt Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Sales Invoice Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Purchase Invoice Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Purchase Order Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Material Request Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Sales Order Item").fields
+2025-06-18 18:02:01,610 INFO ipython frappe.get_meta("Pick List Item").fields
+2025-06-18 18:02:01,611 INFO ipython frappe.get_meta("Item Price").fields
+2025-06-18 18:02:01,611 INFO ipython frappe.get_meta("Item Group").fields
+2025-06-18 18:02:01,611 INFO ipython frappe.get_meta("Item Variant Attribute").fields
+2025-06-18 18:02:01,611 INFO ipython frappe.get_meta("Packed Item").fields
+2025-06-18 18:02:01,611 INFO ipython frappe.get_meta("Item Supplier").fields
+2025-06-18 18:02:01,611 INFO ipython ex
+2025-06-18 18:02:01,611 INFO ipython exist()
+2025-06-18 18:02:01,611 INFO ipython === session end ===
+2025-06-18 18:58:04,825 INFO ipython === bench console session ===
+2025-06-18 18:58:04,827 INFO ipython frappe.get_doc("DocType", "Item")
+2025-06-18 18:58:04,827 INFO ipython frappe.get_meta("Item Default").fields
+2025-06-18 18:58:04,827 INFO ipython frappe.get_meta("Purchase Receipt").fields
+2025-06-18 18:58:04,827 INFO ipython frappe.get_meta("Item Supplier").fields
+2025-06-18 18:58:04,828 INFO ipython frappe.get_meta("Sales Order").fields
+2025-06-18 18:58:04,828 INFO ipython frappe.get_meta("Material Request").fields
+2025-06-18 18:58:04,828 INFO ipython === session end ===

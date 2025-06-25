@@ -1,0 +1,51 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.70.0"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "9febca2981a9ea25fad78a77e0a6d496c6237c53",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "15.65.1"
+    },
+    "item_history": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "202520e4f44806a99be91f55089ba67afd8e0662",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "part_research": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4564dd65b4d50caa8c5e64f8d8f66a7326cc2b33",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    },
+    "national_aviation": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "5aeddfc172014703ec171b741c5832d4b562f24c",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    }
+}
