@@ -400,3 +400,114 @@ Form Dict: {'filters': '[{"fieldname":"item_code","value":"SKU001"},{"fieldname"
 2025-06-25 13:42:20,955 ERROR frappe New Exception collected in error log
 Site: erp.mylocal.site
 Form Dict: {'filters': '[{"fieldname":"item_code","value":"SKU001"},{"fieldname":"item_group","value":null},{"fieldname":"supplier","value":null},{"fieldname":"warehouse","value":null},{"fieldname":"end_of_life","value":null},{"fieldname":"min_order_qty","value":null}]', 'cmd': 'part_research.part_research.report.part_research_report.part_research_report.get_history_data'}
+2025-06-27 14:59:08,082 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 14:59:08,083 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 14:59:17,198 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 15:02:29,178 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 15:02:29,394 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 15:02:52,400 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 15:02:52,476 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:22:21,291 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:22:21,369 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:27:10,432 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:27:10,432 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:27:10,433 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:27:10,433 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:30:22,794 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:30:22,794 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:30:22,794 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:30:22,794 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:39:30,736 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:39:30,865 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:40:35,302 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:40:35,467 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:41:23,920 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:41:24,227 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:42:00,374 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:42:00,374 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:42:00,375 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:42:00,375 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:43:04,112 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:43:04,112 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:43:04,113 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:43:04,113 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:44:36,423 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:44:36,423 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:44:36,423 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 17:44:36,423 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 18:28:14,887 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-06-27 18:28:15,315 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}

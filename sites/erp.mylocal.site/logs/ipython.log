@@ -31,3 +31,8 @@ frappe.db.get_tables()
 2025-06-18 18:58:04,828 INFO ipython frappe.get_meta("Sales Order").fields
 2025-06-18 18:58:04,828 INFO ipython frappe.get_meta("Material Request").fields
 2025-06-18 18:58:04,828 INFO ipython === session end ===
+2025-06-27 19:12:30,303 INFO ipython === bench console session ===
+2025-06-27 19:12:30,305 INFO ipython for f in frappe.get_meta("Item").fields:
+    print(f.fieldname)
+    frappe.db.sql("DESC `tabItem`", as_dict=True)
+2025-06-27 19:12:30,305 INFO ipython === session end ===

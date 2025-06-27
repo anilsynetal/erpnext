@@ -575,3 +575,24 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2025-06-25 18:58:19,176 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
 2025-06-25 18:58:19,191 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
 2025-06-25 18:58:19,195 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
+2025-06-26 00:00:02,182 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-06-26 12:00:01,377 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-06-26 13:55:40,355 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-06-26 13:55:41,393 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
+2025-06-26 13:55:41,394 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
+2025-06-26 13:55:41,394 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
+2025-06-26 13:55:41,401 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
+2025-06-26 18:00:01,334 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-06-27 12:00:01,037 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-06-27 12:00:24,509 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-06-27 12:00:25,382 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
+2025-06-27 12:00:25,396 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
+2025-06-27 12:00:25,420 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
+2025-06-27 12:00:25,427 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
+2025-06-27 12:33:54,678 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-06-27 12:33:55,817 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
+2025-06-27 12:33:55,825 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
+2025-06-27 12:33:55,830 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
+2025-06-27 12:33:55,832 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
+2025-06-27 17:36:32,667 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench console
+2025-06-27 18:00:00,880 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
