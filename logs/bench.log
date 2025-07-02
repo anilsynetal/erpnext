@@ -1,598 +1,106 @@
-2025-06-17 12:52:31,716 DEBUG cd erpnext-bench && python3 -m venv env
-2025-06-17 12:52:34,669 DEBUG cd erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade pip
-2025-06-17 12:52:35,445 DEBUG cd erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet wheel
-2025-06-17 12:52:37,797 LOG Getting frappe
-2025-06-17 12:52:37,797 DEBUG cd erpnext-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
-2025-06-17 12:52:42,492 LOG Installing frappe
-2025-06-17 12:52:42,493 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/frappe 
-2025-06-17 12:53:36,089 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/frappe && yarn install --check-files
-2025-06-17 12:53:45,327 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 12:53:45,328 DEBUG cd erpnext-bench && bench build
-2025-06-17 12:53:45,719 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build
-2025-06-17 12:54:06,570 LOG setting up backups
-2025-06-17 12:54:06,658 LOG backups were set up
-2025-06-17 12:54:06,658 INFO Bench erpnext-bench initialized
-2025-06-17 12:54:07,063 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 12:57:26,608 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench new-site erp.mylocal.site
-2025-06-17 13:00:06,225 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench get-app erpnext --branch version-15
-2025-06-17 13:00:06,906 LOG Getting erpnext
-2025-06-17 13:00:06,906 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
-2025-06-17 13:00:12,077 LOG Installing erpnext
-2025-06-17 13:00:12,078 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext 
-2025-06-17 13:00:40,300 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext && yarn install --check-files
-2025-06-17 13:00:41,088 DEBUG bench build --app erpnext
-2025-06-17 13:00:41,439 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build --app erpnext
-2025-06-17 13:00:46,183 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 13:00:46,293 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 13:00:55,993 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app erpnext
-2025-06-17 13:03:26,034 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 13:03:27,259 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 13:03:27,262 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 13:03:27,270 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 13:03:27,276 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 13:04:52,940 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench use erp.mylocal.site
-2025-06-17 13:05:01,515 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 13:05:02,389 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 13:05:02,391 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 13:05:02,392 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 13:05:02,423 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 13:21:33,693 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench new-app item_history
-2025-06-17 13:21:33,701 LOG creating new app item_history
-2025-06-17 13:23:07,372 LOG Installing item_history
-2025-06-17 13:23:07,376 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/item_history 
-2025-06-17 13:23:09,869 DEBUG bench build --app item_history
-2025-06-17 13:23:10,154 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build --app item_history
-2025-06-17 13:23:13,725 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 13:23:14,057 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 13:23:37,359 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app item_history
-2025-06-17 13:24:33,908 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 13:24:34,759 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 13:24:34,769 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 13:24:34,770 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 13:24:34,774 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 13:26:13,242 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site make-page item-history-page --app item_history
-2025-06-17 13:27:35,442 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site frappe --make-page item-history-page --app item_history
-2025-06-17 13:27:43,703 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site frappe make-page item-history-page --app item_history
-2025-06-17 13:34:03,800 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 13:34:03,821 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 13:34:04,068 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 13:34:22,827 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 13:34:22,839 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 13:34:23,066 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 13:34:47,056 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 13:34:47,785 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 13:34:47,796 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 13:34:47,804 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 13:34:47,809 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 13:35:31,403 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 13:35:32,262 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 13:35:32,263 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 13:35:32,263 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 13:35:32,277 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 13:40:16,423 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 13:40:17,209 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 13:40:17,210 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 13:40:17,210 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 13:40:17,219 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 13:41:15,810 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 13:41:16,512 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 13:41:16,520 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 13:41:16,520 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 13:41:16,541 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 13:49:16,298 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 13:49:17,904 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 14:01:55,708 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 14:02:05,127 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 14:49:02,114 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench new-app part_research
-2025-06-17 14:49:02,127 LOG creating new app part_research
-2025-06-17 14:49:35,682 LOG Installing part_research
-2025-06-17 14:49:35,685 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/part_research 
-2025-06-17 14:49:38,248 DEBUG bench build --app part_research
-2025-06-17 14:49:38,437 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build --app part_research
-2025-06-17 14:49:41,683 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 14:49:42,019 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 14:50:05,434 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app part_research
-2025-06-17 14:51:53,999 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site make-page part-research-page --app part_research
-2025-06-17 14:52:17,974 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --version
-2025-06-17 14:52:42,113 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site list-apps
-2025-06-17 14:53:09,969 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app part_research
-2025-06-17 14:53:59,293 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site get-app part_research
-2025-06-17 14:53:59,314 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site get-app part_research executed with exit code 2
-2025-06-17 14:53:59,592 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 14:55:01,975 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench update
-2025-06-17 14:55:03,123 WARNING shallow_clone is set in your bench config.
-However without passing the --reset flag, your repositories will be unshallowed.
-To avoid this, cancel this operation and run `bench update --reset`.
-
-Consider the consequences of `git reset --hard` on your apps before you run that.
-To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
-		
-2025-06-17 14:55:18,077 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench update executed with exit code 1
-2025-06-17 14:55:18,315 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:10:02,323 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench update
-2025-06-17 15:10:03,533 WARNING shallow_clone is set in your bench config.
-However without passing the --reset flag, your repositories will be unshallowed.
-To avoid this, cancel this operation and run `bench update --reset`.
-
-Consider the consequences of `git reset --hard` on your apps before you run that.
-To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
-		
-2025-06-17 15:10:06,334 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench update executed with exit code 1
-2025-06-17 15:10:06,614 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:10:28,088 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench update
-2025-06-17 15:10:29,426 WARNING shallow_clone is set in your bench config.
-However without passing the --reset flag, your repositories will be unshallowed.
-To avoid this, cancel this operation and run `bench update --reset`.
-
-Consider the consequences of `git reset --hard` on your apps before you run that.
-To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
-		
-2025-06-17 15:10:43,632 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench update executed with exit code 1
-2025-06-17 15:10:43,926 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:13:14,759 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site list-apps
-2025-06-17 15:14:09,157 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench update
-2025-06-17 15:14:10,346 WARNING shallow_clone is set in your bench config.
-However without passing the --reset flag, your repositories will be unshallowed.
-To avoid this, cancel this operation and run `bench update --reset`.
-
-Consider the consequences of `git reset --hard` on your apps before you run that.
-To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
-		
-2025-06-17 15:14:24,264 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/frappe && git fetch upstream --unshallow
-2025-06-17 15:15:36,365 LOG pulling frappe
-2025-06-17 15:15:36,366 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/frappe && git pull  upstream version-15
-2025-06-17 15:15:37,202 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/frappe && find . -name "*.pyc" -delete
-2025-06-17 15:15:38,219 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext && git fetch upstream --unshallow
-2025-06-17 15:19:04,261 LOG pulling erpnext
-2025-06-17 15:19:04,261 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext && git pull  upstream version-15
-2025-06-17 15:19:05,272 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext && find . -name "*.pyc" -delete
-2025-06-17 15:19:05,620 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade pip
-2025-06-17 15:19:06,956 LOG Installing frappe
-2025-06-17 15:19:06,957 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/frappe 
-2025-06-17 15:19:10,017 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/frappe && yarn install --check-files
-2025-06-17 15:19:11,659 LOG Installing erpnext
-2025-06-17 15:19:11,660 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext 
-2025-06-17 15:19:13,913 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext && yarn install --check-files
-2025-06-17 15:19:14,277 LOG Installing item_history
-2025-06-17 15:19:14,277 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/item_history 
-2025-06-17 15:19:16,642 LOG Installing part_research
-2025-06-17 15:19:16,643 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/part_research 
-2025-06-17 15:19:21,023 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench update executed with exit code 1
-2025-06-17 15:19:21,255 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:19:32,567 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench get-app india-compliance --branch version-15
-2025-06-17 15:19:33,602 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench get-app india-compliance --branch version-15 executed with exit code 1
-2025-06-17 15:19:33,693 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:19:33,912 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app india_compliance
-2025-06-17 15:19:52,963 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench list-sites
-2025-06-17 15:19:54,057 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench list-apps
-2025-06-17 15:20:21,914 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site list-apps
-2025-06-17 15:21:34,551 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app part_research
-2025-06-17 15:21:44,661 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site list-apps
-2025-06-17 15:23:01,070 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site remove-app part_research
-2025-06-17 15:23:01,076 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site remove-app part_research executed with exit code 2
-2025-06-17 15:23:01,387 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:23:20,027 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app part_research
-2025-06-17 15:25:39,361 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench new-app part_research
-2025-06-17 15:25:39,373 LOG creating new app part_research
-2025-06-17 15:25:40,673 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench new-app part_research executed with exit code 1
-2025-06-17 15:25:40,911 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:27:15,338 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench new-app part_research
-2025-06-17 15:27:15,349 LOG creating new app part_research
-2025-06-17 15:27:16,707 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench new-app part_research executed with exit code 1
-2025-06-17 15:27:16,951 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:29:41,520 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site console
-2025-06-17 15:32:02,044 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench new-app part_research
-2025-06-17 15:32:02,058 LOG creating new app part_research
-2025-06-17 15:32:03,470 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench new-app part_research executed with exit code 1
-2025-06-17 15:32:03,746 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:36:14,044 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site console
-2025-06-17 15:36:43,654 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site list-apps
-2025-06-17 15:37:40,732 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app part_research
-2025-06-17 15:37:59,877 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site export-fixtures
-2025-06-17 15:41:24,173 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build
-2025-06-17 15:41:44,144 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench clear-cache
-2025-06-17 15:41:45,550 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 15:41:46,680 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 15:41:46,703 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 15:41:47,012 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:47:49,837 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build
-2025-06-17 15:48:09,896 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench clear-cache
-2025-06-17 15:48:11,982 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 15:48:13,383 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 15:48:13,418 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 15:48:13,862 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:48:47,789 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 15:48:48,632 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 15:48:48,644 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 15:48:48,646 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 15:48:48,646 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 15:51:00,700 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 15:51:00,722 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 15:51:00,991 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:51:01,222 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 15:51:02,938 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-website-cache
-2025-06-17 15:51:13,399 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site execute frappe.sessions.clear_all
-2025-06-17 15:51:24,856 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 15:51:24,869 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 15:51:25,042 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 15:51:32,460 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 15:51:33,172 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 15:51:33,183 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 15:51:33,188 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 15:51:33,191 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 15:52:18,320 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 15:52:39,871 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-maintenance-mode
-2025-06-17 15:52:49,623 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 15:52:51,166 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-website-cache
-2025-06-17 15:53:03,807 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 15:53:53,753 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site show-maintenance-mode
-2025-06-17 15:54:35,814 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 15:54:37,507 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-website-cache
-2025-06-17 15:54:38,575 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 15:54:48,681 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build --force
-2025-06-17 15:55:15,268 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 15:56:04,692 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench set-config maintenance_mode 0
-2025-06-17 15:56:52,180 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 15:56:53,823 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-website-cache
-2025-06-17 15:56:54,747 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 15:57:03,320 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build --force
-2025-06-17 15:57:14,155 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 15:58:40,405 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site uninstall-app item_history
-2025-06-17 15:59:29,466 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 16:00:09,051 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site list-apps
-2025-06-17 16:07:58,515 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 16:08:06,204 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 16:08:18,359 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 16:08:18,379 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 16:08:18,643 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 16:08:24,720 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 16:10:17,788 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site console
-2025-06-17 16:11:57,072 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 16:12:04,752 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 16:12:05,901 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 16:12:05,919 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 16:12:06,158 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 16:12:11,389 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 16:14:42,127 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site new-page part-research --app part_research
-2025-06-17 16:18:14,917 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site console
-2025-06-17 16:18:48,295 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 16:18:55,758 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 16:18:56,950 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build
-2025-06-17 16:18:57,889 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 16:19:16,433 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 16:50:15,691 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site new-page part-research --app part_research
-2025-06-17 16:52:47,699 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site console
-2025-06-17 16:53:55,049 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-17 16:54:02,674 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-17 16:54:04,113 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build
-2025-06-17 16:54:22,763 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-17 16:54:22,784 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 16:54:23,094 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 16:55:00,852 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:29:17,351 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench set-config developer_mode 1
-2025-06-17 17:29:38,881 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:44:13,869 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:44:25,609 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:44:36,841 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:44:42,847 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:44:50,647 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:45:07,883 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:58:00,174 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:58:15,299 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:59:25,844 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 17:59:26,634 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 17:59:26,635 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 17:59:26,644 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 17:59:26,654 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 18:00:00,744 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-17 18:01:02,429 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 18:01:03,415 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 18:01:03,423 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 18:01:03,427 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 18:01:03,429 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 18:05:56,860 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 18:05:57,737 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 18:05:57,741 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 18:05:57,741 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 18:05:57,760 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 18:11:05,355 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 18:11:19,345 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 18:12:18,505 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 18:12:19,266 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 18:12:19,278 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 18:12:19,278 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 18:12:19,303 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 18:16:01,700 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app petcare
-2025-06-17 18:16:54,042 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app petcare
-2025-06-17 18:22:34,030 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app erpnext-bench
-2025-06-17 18:23:08,450 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app erpnext
-2025-06-17 18:23:21,907 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench get-app erpnext
-2025-06-17 18:23:35,553 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-06-17
-2025-06-17 18:23:35,606 LOG Getting erpnext
-2025-06-17 18:23:35,606 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
-2025-06-17 18:23:41,182 LOG Installing erpnext
-2025-06-17 18:23:41,183 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext 
-2025-06-17 18:23:45,134 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench/apps/erpnext && yarn install --check-files
-2025-06-17 18:23:45,738 DEBUG bench build --app erpnext
-2025-06-17 18:23:46,085 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build --app erpnext
-2025-06-17 18:23:50,948 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-17 18:23:51,224 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 18:24:06,988 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app erpnext
-2025-06-17 18:24:21,185 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 18:24:39,244 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 18:24:40,112 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 18:24:40,122 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 18:24:40,125 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 18:24:40,126 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 18:29:52,258 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app petcare
-2025-06-17 18:30:11,515 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site list-apps
-2025-06-17 18:30:53,779 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app petcare
-2025-06-17 18:31:18,032 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench get-app /full/path/to/petcare
-2025-06-17 18:31:19,029 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench get-app /full/path/to/petcare executed with exit code 1
-2025-06-17 18:31:19,124 INFO A newer version of bench is available: 5.22.9 → 5.25.4
-2025-06-17 18:31:45,345 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app petcare
-2025-06-17 19:27:17,141 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 19:27:17,865 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 19:27:17,865 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 19:27:17,866 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 19:27:17,876 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 19:28:07,581 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 19:28:08,306 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-17 19:28:08,308 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 19:28:08,313 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 19:28:08,317 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 19:28:51,243 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-17 19:28:51,882 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-17 19:28:51,892 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-17 19:28:51,897 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-17 19:28:51,897 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 11:42:57,291 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 11:42:58,233 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 11:42:58,234 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 11:42:58,239 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 11:42:58,247 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 11:43:53,742 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 11:43:54,380 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 11:43:54,392 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 11:43:54,393 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 11:43:54,400 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 11:44:31,095 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 11:44:31,721 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 11:44:31,721 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 11:44:31,724 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 11:44:31,730 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 11:58:23,553 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 11:58:24,371 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 11:58:24,372 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 11:58:24,372 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 11:58:24,385 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 12:00:00,750 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-18 12:00:00,865 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 12:00:01,556 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 12:00:01,559 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 12:00:01,559 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 12:00:01,562 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 12:00:38,745 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 12:00:39,498 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 12:00:39,501 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 12:00:39,501 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 12:00:39,512 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 12:02:23,037 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 12:02:23,703 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 12:02:23,703 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 12:02:23,703 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 12:02:23,707 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 12:03:43,476 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 12:03:44,078 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 12:03:44,079 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 12:03:44,089 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 12:03:44,089 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 13:42:55,188 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 13:42:56,077 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 13:42:56,085 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 13:42:56,088 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 13:42:56,099 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 14:48:19,031 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 14:48:19,983 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 14:48:19,986 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 14:48:19,986 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 14:48:19,986 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 14:49:23,069 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 14:49:23,926 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 14:49:23,944 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 14:49:23,945 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 14:49:23,952 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 14:49:44,514 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench migrate
-2025-06-18 15:35:34,468 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 15:35:35,297 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 15:35:35,298 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 15:35:35,308 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 15:35:35,308 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 15:47:50,920 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench clear-cache
-2025-06-18 15:47:52,054 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench migrate
-2025-06-18 15:47:59,692 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-18 15:47:59,778 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-18 15:48:00,236 INFO A newer version of bench is available: 5.22.9 → 5.25.5
-2025-06-18 15:48:10,200 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 15:48:20,695 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 15:49:37,355 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 15:49:37,973 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 15:49:37,985 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 15:49:37,985 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 15:49:37,988 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 15:57:16,555 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site console
-2025-06-18 16:18:40,326 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench console
-2025-06-18 17:55:15,352 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 17:55:40,555 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 17:55:41,169 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 17:55:41,169 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 17:55:41,169 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 17:55:41,183 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 18:00:01,277 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-18 18:02:46,103 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-18 18:03:21,191 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 18:12:39,333 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench mysql
-2025-06-18 18:27:38,072 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-18 18:27:52,753 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 18:28:23,638 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 18:28:24,288 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 18:28:24,288 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 18:28:24,290 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-18 18:28:24,290 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 18:29:26,476 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site console
-2025-06-18 18:58:17,380 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench clear-cache
-2025-06-18 18:58:18,965 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench migrate
-2025-06-18 18:58:26,794 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench restart
-2025-06-18 18:58:26,826 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-18 18:58:27,227 INFO A newer version of bench is available: 5.22.9 → 5.25.5
-2025-06-18 18:58:41,702 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-18 18:58:42,448 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-18 18:58:42,456 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-18 18:58:42,461 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-18 18:58:42,469 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-19 00:00:01,475 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-19 12:00:01,306 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-19 16:30:56,142 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-19 16:30:56,973 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-19 16:30:56,977 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-19 16:30:56,977 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-19 16:30:56,977 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-19 17:04:07,080 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-19 17:04:17,225 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-19 17:08:35,682 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-19 17:08:36,540 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-19 17:08:36,540 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-19 17:08:36,540 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-19 17:08:36,545 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-19 17:13:01,278 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-19 17:13:02,154 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-19 17:13:02,164 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-19 17:13:02,167 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-19 17:13:02,173 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-19 17:25:37,236 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-19 17:25:38,006 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-19 17:25:38,013 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-19 17:25:38,016 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-19 17:25:38,022 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-19 17:27:02,364 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
-2025-06-19 18:00:01,247 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-20 00:00:01,304 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-20 12:00:01,687 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-20 18:00:01,119 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-20 18:32:53,392 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench new-app national_aviation
-2025-06-20 18:32:53,402 LOG creating new app national_aviation
-2025-06-20 18:33:58,920 LOG Installing national_aviation
-2025-06-20 18:33:58,924 DEBUG cd /Users/anilprajapati/frappe/erpnext-bench && /Users/anilprajapati/frappe/erpnext-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/anilprajapati/frappe/erpnext-bench/apps/national_aviation 
-2025-06-20 18:34:01,511 DEBUG bench build --app national_aviation
-2025-06-20 18:34:01,706 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench build --app national_aviation
-2025-06-20 18:34:05,338 WARNING restart failed: Couldn't find supervisorctl in PATH
-2025-06-20 18:34:05,625 INFO A newer version of bench is available: 5.22.9 → 5.25.5
-2025-06-20 18:38:54,454 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-20 18:38:55,334 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-20 18:38:55,337 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-20 18:38:55,346 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-20 18:38:55,346 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-20 18:45:31,373 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site install-app national_aviation
-2025-06-21 00:03:29,082 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-22 12:02:08,328 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-23 11:55:47,097 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 12:00:00,708 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-23 12:56:13,931 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 12:56:14,913 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 12:57:55,562 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 12:57:56,427 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 12:57:56,430 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 12:57:56,437 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 12:57:56,441 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 14:38:16,144 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 14:38:17,073 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 14:38:17,075 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 14:38:17,080 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 14:38:17,085 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 14:39:01,415 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-23 14:39:09,267 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 14:39:10,070 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 14:39:10,072 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 14:39:10,077 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 14:39:10,081 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 14:44:54,000 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 14:44:55,243 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 14:44:55,254 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 14:44:55,269 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 14:44:55,280 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 14:48:41,988 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 15:51:15,443 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-23 15:51:20,024 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 15:51:21,006 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 15:51:21,007 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 15:51:21,007 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 15:51:21,009 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 15:57:41,404 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site clear-cache
-2025-06-23 15:57:46,372 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 15:57:47,207 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 15:57:47,210 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 15:57:47,212 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 15:57:47,219 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 16:02:25,723 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 16:02:26,600 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 16:02:26,600 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 16:02:26,603 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 16:02:26,609 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 16:07:47,931 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 16:07:48,845 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 16:07:48,845 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 16:07:48,846 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 16:07:48,851 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 17:04:48,566 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 17:04:49,587 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 17:04:49,587 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 17:04:49,588 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 17:04:49,600 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 17:55:45,831 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-23 17:55:46,734 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-23 17:55:46,735 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-23 17:55:46,743 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-23 17:55:46,743 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-23 18:00:00,497 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-24 00:00:01,426 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-24 12:00:01,053 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-24 18:00:01,533 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-25 00:02:06,840 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-25 12:00:01,845 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-25 12:59:49,785 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-25 12:59:51,022 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-25 12:59:51,024 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-25 12:59:51,031 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-25 12:59:51,037 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-25 18:01:17,745 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-25 18:57:54,962 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-25 18:57:56,005 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-25 18:57:56,019 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-25 18:57:56,019 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-25 18:57:56,019 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-25 18:58:18,409 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-25 18:58:19,173 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-25 18:58:19,176 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-25 18:58:19,191 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-25 18:58:19,195 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-26 00:00:02,182 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-26 12:00:01,377 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-26 13:55:40,355 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-26 13:55:41,393 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-26 13:55:41,394 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-26 13:55:41,394 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-26 13:55:41,401 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-26 18:00:01,334 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-27 12:00:01,037 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
-2025-06-27 12:00:24,509 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-27 12:00:25,382 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-27 12:00:25,396 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-27 12:00:25,420 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-27 12:00:25,427 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-27 12:33:54,678 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
-2025-06-27 12:33:55,817 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
-2025-06-27 12:33:55,825 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
-2025-06-27 12:33:55,830 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
-2025-06-27 12:33:55,832 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
-2025-06-27 17:36:32,667 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench console
-2025-06-27 18:00:00,880 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-07-02 19:26:46,013 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 19:26:46,710 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 19:26:46,711 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 19:26:46,719 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 19:26:46,719 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 19:28:14,176 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site mariadb
+2025-07-02 19:30:33,286 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site uninstall-app national_aviation
+2025-07-02 19:32:41,498 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 19:32:42,319 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 19:32:42,319 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 19:32:42,327 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 19:32:42,330 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 19:36:02,685 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site uninstall-app national_aviation
+2025-07-02 19:38:29,600 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site mariadb
+2025-07-02 20:28:35,849 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench clear-cache
+2025-07-02 20:28:42,884 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-07-02 20:28:43,663 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:28:43,663 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:28:43,664 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:28:43,663 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:29:21,066 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site migrate
+2025-07-02 20:29:31,244 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-07-02 20:29:31,850 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:29:31,850 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:29:31,850 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:29:31,850 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:34:08,204 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-07-02 20:34:09,073 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:34:09,074 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:34:09,074 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:34:09,074 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:34:55,077 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site mariadb
+2025-07-02 20:37:06,301 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench remove-app national_aviation
+2025-07-02 20:37:06,313 WARNING /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench remove-app national_aviation executed with exit code 1
+2025-07-02 20:38:20,213 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site migrate
+2025-07-02 20:38:21,875 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench clear-cache
+2025-07-02 20:38:23,210 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench clear-app-cache
+2025-07-02 20:38:43,842 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 20:38:44,593 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:38:44,593 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:38:44,593 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:38:44,596 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:39:44,627 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-02 20:40:07,632 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench clear-cache
+2025-07-02 20:40:11,873 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench restart
+2025-07-02 20:40:18,148 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 20:40:18,850 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:40:18,859 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:40:18,862 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:40:18,862 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:42:46,326 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench clear-cache
+2025-07-02 20:42:50,229 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 20:42:50,864 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:42:50,885 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:42:50,885 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:42:50,893 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:46:54,569 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site uninstall-app national_aviation --dry-run
+2025-07-02 20:47:32,446 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site uninstall-app national_aviation --force
+2025-07-02 20:48:10,967 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site backup
+2025-07-02 20:55:55,334 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-02 20:55:57,414 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-website-cache
+2025-07-02 20:56:06,482 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site migrate
+2025-07-02 20:56:24,894 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 20:56:25,604 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:56:25,626 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:56:25,631 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:56:25,634 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:57:13,843 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 20:57:14,652 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:57:14,661 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:57:14,664 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:57:14,676 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:57:53,972 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 20:57:54,810 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:57:54,815 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:57:54,817 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:57:54,818 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 20:59:08,123 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 20:59:08,898 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 20:59:08,915 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 20:59:08,919 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 20:59:08,927 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 21:18:59,980 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-07-02 21:19:00,873 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
+2025-07-02 21:19:00,873 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
+2025-07-02 21:19:00,873 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
+2025-07-02 21:19:00,893 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
+2025-07-02 21:19:56,445 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-07-02 21:19:57,286 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
+2025-07-02 21:19:57,304 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
+2025-07-02 21:19:57,305 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
+2025-07-02 21:19:57,309 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
+2025-07-02 21:22:23,779 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench get-app national_aviation
+2025-07-02 21:22:24,865 WARNING /Users/anilprajapati/Library/Python/3.9/bin/bench get-app national_aviation executed with exit code 1
+2025-07-02 21:22:24,956 INFO A newer version of bench is available: 5.22.9 → 5.25.9
+2025-07-02 21:25:48,654 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench start
+2025-07-02 21:25:49,378 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench watch
+2025-07-02 21:25:49,378 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench serve --port 8000
+2025-07-02 21:25:49,380 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench schedule
+2025-07-02 21:25:49,381 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench worker
+2025-07-02 21:28:49,803 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site mariadb
+2025-07-02 21:34:01,882 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 21:34:02,758 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 21:34:02,770 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 21:34:02,777 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 21:34:02,777 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule

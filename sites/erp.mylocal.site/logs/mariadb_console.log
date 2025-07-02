@@ -1,0 +1,19 @@
+_HiStOrY_V2_
+root
+SELECT\040*\040FROM\040tabModule\040WHERE\040module_name\040LIKE\040'%national_aviation%';
+root\040SELECT\040*\040FROM\040tabModule\040WHERE\040module_name\040LIKE\040'%national_aviation%';
+SELECT\040*\040FROM\040tabApp\040WHERE\040name\040=\040'national_aviation';
+DELETE\040FROM\040tabModule\040WHERE\040app_name\040=\040'national_aviation';
+SELECT\040*\040FROM\040tabModule\040WHERE\040module_name\040LIKE\040'%national_aviation%';
+SHOW\040TABLES\040LIKE\040'%app%';
+SELECT\040*\040FROM\040`tabInstalled\040Application`\040WHERE\040name\040=\040'national_aviation'\040OR\040app_name\040=\040'national_aviation';
+SELECT\040*\040FROM\040tabModule\040WHERE\040module_name\040LIKE\040'%national_aviation%'\040OR\040app_name\040=\040'national_aviation';
+DELETE\040FROM\040tabModule\040WHERE\040app_name\040=\040'national_aviation';
+bench\040--site\040erp.mylocal.site\040uninstall-app\040national_aviation
+exit
+exit;
+bench\040--site\040erp.mylocal.site\040uninstall-app\040national_aviation\040exit\040exit;
+DELETE\040FROM\040\040\-` tabModule\040Def \040\-`\040WHERE\040app_name\040=\040
+DELETE\040FROM\040tabModule\040Def\040\040WHERE\040app_name\040="national_aviation"
+EXIT;
+DELETE\040FROM\040\040\-` tabModule\040Def \040\-`\040WHERE\040app_name\040=\040\040DELETE\040FROM\040tabModule\040Def\040\040WHERE\040app_name\040="national_aviation"\040EXIT;

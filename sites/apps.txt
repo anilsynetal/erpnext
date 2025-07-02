@@ -1,5 +1,3 @@
 frappe
-national_aviation
 erpnext
-item_history
 part_research

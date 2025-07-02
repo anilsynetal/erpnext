@@ -1765,3 +1765,73 @@
 2025-06-27 18:57:21,793 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
 2025-06-27 18:57:21,807 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
 2025-06-27 18:57:21,809 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 19:23:48,431 Worker rq:worker:f635746f9c264b80a2f35e8dc0a5b595 started with PID 63650, version 1.15.1
+2025-07-02 19:23:48,431 Subscribing to channel rq:pubsub:f635746f9c264b80a2f35e8dc0a5b595
+2025-07-02 19:23:48,431 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 19:23:48,432 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 19:23:48,433 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 19:23:48,434 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 19:26:43,163 Worker f635746f9c264b80a2f35e8dc0a5b595 [PID 63650]: warm shut down requested
+2025-07-02 19:26:47,751 Worker rq:worker:5ef02a02eac2488cb4aa638994712af6 started with PID 64050, version 1.15.1
+2025-07-02 19:26:47,751 Subscribing to channel rq:pubsub:5ef02a02eac2488cb4aa638994712af6
+2025-07-02 19:26:47,752 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 19:27:53,888 Worker 5ef02a02eac2488cb4aa638994712af6 [PID 64050]: warm shut down requested
+2025-07-02 19:27:53,904 Unsubscribing from channel rq:pubsub:5ef02a02eac2488cb4aa638994712af6
+2025-07-02 19:32:43,437 Worker rq:worker:d11956a5019445438656e4984477edde started with PID 65211, version 1.15.1
+2025-07-02 19:32:43,437 Subscribing to channel rq:pubsub:d11956a5019445438656e4984477edde
+2025-07-02 19:32:43,438 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 19:35:49,072 Worker d11956a5019445438656e4984477edde [PID 65211]: warm shut down requested
+2025-07-02 20:28:44,387 Worker rq:worker:a5894200f11c426782f4bb495bd1b874 started with PID 66614, version 1.15.1
+2025-07-02 20:28:44,388 Subscribing to channel rq:pubsub:a5894200f11c426782f4bb495bd1b874
+2025-07-02 20:28:44,389 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 20:28:44,390 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 20:28:44,393 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 20:28:44,395 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 20:29:02,481 Worker a5894200f11c426782f4bb495bd1b874 [PID 66614]: warm shut down requested
+2025-07-02 20:29:02,501 Unsubscribing from channel rq:pubsub:a5894200f11c426782f4bb495bd1b874
+2025-07-02 20:29:32,477 Worker rq:worker:056502b3cb274814b0a1852998d55db6 started with PID 66898, version 1.15.1
+2025-07-02 20:29:32,477 Subscribing to channel rq:pubsub:056502b3cb274814b0a1852998d55db6
+2025-07-02 20:29:32,477 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 20:32:20,043 Worker 056502b3cb274814b0a1852998d55db6 [PID 66898]: warm shut down requested
+2025-07-02 20:34:10,132 Worker rq:worker:d315c54c2756467aa271dcabcdf5ef18 started with PID 68441, version 1.15.1
+2025-07-02 20:34:10,132 Subscribing to channel rq:pubsub:d315c54c2756467aa271dcabcdf5ef18
+2025-07-02 20:34:10,133 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 20:34:47,091 Worker d315c54c2756467aa271dcabcdf5ef18 [PID 68441]: warm shut down requested
+2025-07-02 20:34:47,106 Unsubscribing from channel rq:pubsub:d315c54c2756467aa271dcabcdf5ef18
+2025-07-02 20:38:45,626 Worker rq:worker:5ce89dc66bef46cc87aa892a62469df4 started with PID 69527, version 1.15.1
+2025-07-02 20:38:45,626 Subscribing to channel rq:pubsub:5ce89dc66bef46cc87aa892a62469df4
+2025-07-02 20:38:45,627 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 20:39:43,234 Worker 5ce89dc66bef46cc87aa892a62469df4 [PID 69527]: warm shut down requested
+2025-07-02 20:39:43,242 Unsubscribing from channel rq:pubsub:5ce89dc66bef46cc87aa892a62469df4
+2025-07-02 20:40:19,719 Worker rq:worker:a40eb5b43a984f8397c62b1777fe2b8c started with PID 70045, version 1.15.1
+2025-07-02 20:40:19,720 Subscribing to channel rq:pubsub:a40eb5b43a984f8397c62b1777fe2b8c
+2025-07-02 20:40:19,720 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 20:42:43,032 Worker a40eb5b43a984f8397c62b1777fe2b8c [PID 70045]: warm shut down requested
+2025-07-02 20:42:43,044 Unsubscribing from channel rq:pubsub:a40eb5b43a984f8397c62b1777fe2b8c
+2025-07-02 20:42:51,560 Worker rq:worker:6e6510cb0778443a879268b0fa1a986b started with PID 70447, version 1.15.1
+2025-07-02 20:42:51,560 Subscribing to channel rq:pubsub:6e6510cb0778443a879268b0fa1a986b
+2025-07-02 20:42:51,561 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 20:46:31,557 Worker 6e6510cb0778443a879268b0fa1a986b [PID 70447]: warm shut down requested
+2025-07-02 20:59:10,580 Worker rq:worker:d3d54351de77437e806060b63eee6b73 started with PID 75252, version 1.15.1
+2025-07-02 20:59:10,580 Subscribing to channel rq:pubsub:d3d54351de77437e806060b63eee6b73
+2025-07-02 20:59:10,581 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 20:59:10,581 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 20:59:10,582 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 20:59:10,584 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 21:00:47,451 Worker d3d54351de77437e806060b63eee6b73 [PID 75252]: warm shut down requested
+2025-07-02 21:00:47,460 Unsubscribing from channel rq:pubsub:d3d54351de77437e806060b63eee6b73
+2025-07-02 21:19:02,028 Worker rq:worker:17aee1d60a054530aa20b00e2933a381 started with PID 82071, version 1.15.1
+2025-07-02 21:19:02,029 Subscribing to channel rq:pubsub:17aee1d60a054530aa20b00e2933a381
+2025-07-02 21:19:02,029 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 21:19:02,030 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 21:19:02,031 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 21:19:02,031 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 21:19:37,519 Worker 17aee1d60a054530aa20b00e2933a381 [PID 82071]: warm shut down requested
+2025-07-02 21:19:58,344 Worker rq:worker:e4f99a66a72a4f57b39907972e73b927 started with PID 82442, version 1.15.1
+2025-07-02 21:19:58,344 Subscribing to channel rq:pubsub:e4f99a66a72a4f57b39907972e73b927
+2025-07-02 21:19:58,345 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 21:21:37,823 Worker e4f99a66a72a4f57b39907972e73b927 [PID 82442]: warm shut down requested
+2025-07-02 21:25:50,377 Worker rq:worker:2b9fb3d1e01a470eb3e30fb906a36a85 started with PID 83503, version 1.15.1
+2025-07-02 21:25:50,377 Subscribing to channel rq:pubsub:2b9fb3d1e01a470eb3e30fb906a36a85
+2025-07-02 21:25:50,378 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 21:28:27,889 Worker 2b9fb3d1e01a470eb3e30fb906a36a85 [PID 83503]: warm shut down requested

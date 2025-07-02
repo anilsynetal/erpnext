@@ -481,3 +481,108 @@ Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU
 2025-06-27 18:28:15,315 ERROR frappe New Exception collected in error log
 Site: erp.mylocal.site
 Form Dict: {'report_name': 'Part Research Report', 'filters': '{"item_code":"SKU001"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-02 19:23:59,689 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 19:26:52,421 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 19:26:53,896 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 19:32:50,150 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 19:32:53,394 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 19:32:55,949 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'app_path': 'home'}
+2025-07-02 19:32:56,368 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {'app_path': 'home'}
+2025-07-02 20:28:52,051 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:29:37,910 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:34:18,400 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:50,163 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:52,073 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:52,547 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:52,705 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:52,842 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:52,968 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:53,077 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:53,179 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:54,223 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:54,487 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:54,660 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:54,882 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:55,175 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:55,386 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:55,612 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:55,806 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:38:56,060 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:40:28,671 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:40:30,056 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:42:56,143 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:59:16,577 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 20:59:22,200 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 21:19:09,881 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 21:19:14,090 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
+2025-07-02 21:25:55,042 ERROR frappe New Exception collected in error log
+Site: erp.mylocal.site
+Form Dict: {}
