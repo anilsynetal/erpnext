@@ -36,3 +36,511 @@ frappe.db.get_tables()
     print(f.fieldname)
     frappe.db.sql("DESC `tabItem`", as_dict=True)
 2025-06-27 19:12:30,305 INFO ipython === session end ===
+2025-07-03 15:28:40,364 INFO ipython === bench console session ===
+2025-07-03 15:28:40,366 INFO ipython import frappe
+
+workspace = frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",
+    "title": "Part Research",
+    "label": "Part Research",
+    "for_user": "",
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": [
+        {
+            "type": "section",
+            "label": "Reports",
+            "columns": 2,
+            "children": [
+                {
+                    "type": "report",
+                    "label": "Part Research Report",
+                    "link_to": "Report/Part Research Report",
+                    "report_type": "Report",
+                    "is_query_report": 1,
+                    "icon": "octicon octicon-graph"
+                }
+            ]
+        }
+    ]
+})
+
+workspace.insert(ignore_permissions=True)
+frappe.db.commit()
+2025-07-03 15:28:40,366 INFO ipython import frappe
+import json
+
+workspace = frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",
+    "title": "Part Research",
+    "label": "Part Research",
+    "for_user": "",
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": json.dumps([  # <--- FIX: content must be a string
+        {
+            "type": "section",
+            "label": "Reports",
+            "columns": 2,
+            "children": [
+                {
+                    "type": "report",
+                    "label": "Part Research Report",
+                    "link_to": "Report/Part Research Report",
+                    "report_type": "Report",
+                    "is_query_report": 1,
+                    "icon": "octicon octicon-graph"
+                }
+            ]
+        }
+    ])
+})
+
+workspace.insert(ignore_permissions=True)
+frappe.db.commit()
+2025-07-03 15:28:40,366 INFO ipython import frappe, json
+
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link_to": "query-report/Part Research Report",
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+# Insert or update Workspace
+existing = frappe.get_all("Workspace", filters={"module": "Part Research", "title": "Part Research"})
+
+if existing:
+    ws = frappe.get_doc("Workspace", existing[0].name)
+    ws.content = content
+    ws.save(ignore_permissions=True)
+else:
+    frappe.get_doc({
+        "doctype": "Workspace",
+        "module": "Part Research",
+        "title": "Part Research",
+        "label": "Part Research",
+        "for_user": "",
+        "public": 1,
+        "is_standard": 1,
+        "extendable": 1,
+        "content": content
+    }).insert(ignore_permissions=True)
+
+frappe.db.commit()
+2025-07-03 15:28:40,366 INFO ipython import frappe, json
+
+# Correct link_to for your Query Report
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link_to": "query-report/Part Research Report",  # ✅ Correct URL path
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+# Insert or update Workspace
+existing = frappe.get_all("Workspace", filters={"module": "Part Research", "title": "Part Research"})
+
+if existing:
+    ws = frappe.get_doc("Workspace", existing[0].name)
+    ws.content = content
+    ws.save(ignore_permissions=True)
+else:
+    frappe.get_doc({
+        "doctype": "Workspace",
+        "module": "Part Research",
+        "title": "Part Research",
+        "label": "Part Research",
+        "for_user": "",
+        "public": 1,
+        "is_standard": 1,
+        "extendable": 1,
+        "content": content
+    }).insert(ignore_permissions=True)
+
+frappe.db.commit()
+2025-07-03 15:28:40,367 INFO ipython import frappe
+
+# Get existing workspace
+ws = frappe.get_all("Workspace", filters={"title": "Part Research"}, pluck="name")
+
+# Delete it if it exists
+if ws:
+    frappe.delete_doc("Workspace", ws[0], ignore_permissions=True)
+    frappe.db.commit()
+    print("✅ Old workspace deleted.")
+else:
+    print("⚠️ Workspace not found.")
+    
+2025-07-03 15:28:40,367 INFO ipython import frappe, json
+
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link_to": "query-report/Part Research Report",
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",
+    "title": "Part Research",
+    "label": "Part Research",
+    "for_user": "",
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": content
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+print("✅ New workspace created.")
+2025-07-03 15:28:40,367 INFO ipython import frappe, json
+
+# Delete old Workspace if it's interfering (optional safety)
+try:
+    frappe.delete_doc("Workspace", "Part Research", ignore_permissions=True)
+except:
+    pass
+
+# Define Sidebar Section with Submenu Link
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link": "query-report/Part Research Report",  # 👈 This is the URL
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+# Insert new Workspace that will be linked to sidebar menu
+frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",
+    "title": "Part Research",
+    "label": "Part Research",
+    "route": "part-research",  # Optional if you want /app/part-research route
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": content
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+2025-07-03 15:28:40,367 INFO ipython import frappe, json
+
+# Clear existing Workspace (optional safety)
+try:
+    frappe.delete_doc("Workspace", "Part Research", ignore_permissions=True)
+    print("Old Workspace deleted.")
+except frappe.DoesNotExistError:
+    print("No existing workspace found.")
+
+# Define Sidebar content JSON with direct link
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link": "query-report/Part Research Report",
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+# Insert new Workspace (backed by module)
+frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",       # This ties it to the sidebar "Part Research"
+    "title": "Part Research",
+    "label": "Part Research",
+    "route": "part-research",        # Makes /app/part-research valid
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": content
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+print("✅ New Workspace created with link to your report.")
+2025-07-03 15:28:40,367 INFO ipython q
+2025-07-03 15:28:40,367 INFO ipython q:
+    exit()
+2025-07-03 15:28:40,367 INFO ipython exist();
+2025-07-03 15:28:40,367 INFO ipython === session end ===
+2025-07-03 17:02:50,313 INFO ipython === bench console session ===
+2025-07-03 17:02:50,322 INFO ipython import frappe, json
+
+# Clear existing Workspace (optional safety)
+try:
+    frappe.delete_doc("Workspace", "Part Research", ignore_permissions=True)
+    print("Old Workspace deleted.")
+except frappe.DoesNotExistError:
+    print("No existing workspace found.")
+
+# Define Sidebar content JSON with direct link
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link": "query-report/Part Research Report",
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+# Insert new Workspace (backed by module)
+frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",       # This ties it to the sidebar "Part Research"
+    "title": "Part Research",
+    "label": "Part Research",
+    "route": "part-research",        # Makes /app/part-research valid
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": content
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+print("✅ New Workspace created with link to your report.")
+2025-07-03 17:02:50,322 INFO ipython import frappe, json
+
+# Clear existing Workspace (optional safety)
+try:
+    frappe.delete_doc("Workspace", "Part Research", ignore_permissions=True)
+    print("Old Workspace deleted.")
+except frappe.DoesNotExistError:
+    print("No existing workspace found.")
+
+# Define Sidebar content JSON with direct link
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link": "query-report/Part Research Report",
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+# Insert new Workspace (backed by module)
+frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",       # This ties it to the sidebar "Part Research"
+    "title": "Part Research",
+    "label": "Part Research",
+    "route": "part-research",        # Makes /app/part-research valid
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": content
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+print("✅ New Workspace created with link to your report.")
+2025-07-03 17:02:50,322 INFO ipython import frappe, json
+
+# (Optional) Remove existing Workspace if it's broken or blank
+try:
+    frappe.delete_doc("Workspace", "Part Research", ignore_permissions=True)
+    print("Old Workspace deleted.")
+except frappe.DoesNotExistError:
+    print("No existing Workspace.")
+
+# Define the submenu item pointing to your report
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "fields": [
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link": "query-report/Part Research Report",
+                "icon": "octicon octicon-graph"
+            }
+        ]
+    }
+])
+
+# Insert new Workspace document which will show in the sidebar under Part Research
+frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",        # Connects this to the sidebar module
+    "title": "Part Research",
+    "label": "Part Research",
+    "public": 1,
+    "is_standard": 1,
+    "extendable": 1,
+    "content": content,
+    "parent_page": None,
+    "for_user": None,
+    "sequence_id": 1,
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+print("✅ New Workspace created with submenu link to your report.")
+2025-07-03 17:02:50,322 INFO ipython import frappe, json
+
+# (Optional) Remove existing Workspace if it's broken or blank
+try:
+    frappe.delete_doc("Workspace", "Part Research", ignore_permissions=True, force=True)
+    print("Old Workspace deleted.")
+except frappe.DoesNotExistError:
+    print("No existing Workspace found.")
+
+# Define the submenu item pointing to your report
+content = json.dumps([
+    {
+        "label": "Reports",
+        "type": "section",
+        "items": [  # Changed 'fields' to 'items' as per Frappe's standard Workspace JSON structure
+            {
+                "label": "Part Research Report",
+                "type": "link",
+                "link_type": "Report",
+                "link_to": "Part Research Report",  # Use the exact report name
+                "is_query_report": True,  # Explicitly specify it's a query report
+            }
+        ]
+    }
+])
+
+# Insert new Workspace document
+frappe.get_doc({
+    "doctype": "Workspace",
+    "module": "Part Research",  # Ensure this module exists in your Frappe app
+    "title": "Part Research",
+    "label": "Part Research",
+    "public": 1,  # Public workspace
+    "is_standard": 0,  # Set to 0 if this is a custom workspace
+    "extendable": 1,
+    "content": content,
+    "parent_page": None,
+    "for_user": None,
+    "sequence_id": 1,
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+print("✅ New Workspace created with submenu link to your report.")
+2025-07-03 17:02:50,322 INFO ipython import frappe, json
+
+# Remove existing Workspace
+try:
+    frappe.delete_doc("Workspace", "Part Research", ignore_permissions=True, force=True)
+    print("Old Workspace deleted.")
+except frappe.DoesNotExistError:
+    print("No existing Workspace found.")
+
+# Simplified content JSON
+content = json.dumps([
+    {
+        "type": "card",
+        "name": "Reports",
+        "label": "Reports",
+        "items": [
+            {
+                "type": "link",
+                "link_type": "Report",
+                "link_to": "Part Research Report",
+                "label": "Part Research Report",
+                "is_query_report": True
+            }
+        ]
+    }
+])
+
+# Create new Workspace
+frappe.get_doc({
+    "doctype": "Workspace",
+    "name": "Part Research",
+    "title": "Part Research",
+    "label": "Part Research",
+    "module": "Part Research",
+    "public": 1,
+    "is_standard": 0,
+    "extendable": 1,
+    "content": content,
+    "parent_page": None,
+    "for_user": None,
+    "sequence_id": 1,
+}).insert(ignore_permissions=True)
+
+frappe.db.commit()
+print("✅ New Workspace created with submenu link to your report.")
+2025-07-03 17:02:50,322 INFO ipython import frappe
+
+# Check if report exists
+if not frappe.db.exists("Report", "Part Research Report"):
+    frappe.get_doc({
+        "doctype": "Report",
+        "name": "Part Research Report",
+        "report_name": "Part Research Report",
+        "report_type": "Query Report",
+        "is_standard": "No",
+        "module": "Part Research",
+        "query": "SELECT * FROM `tabItem` LIMIT 10",  # Replace with your actual query
+    }).insert(ignore_permissions=True)
+    frappe.db.commit()
+    print("✅ Part Research Report created.")
+else:
+    print("Report already exists.")
+    
+2025-07-03 17:02:50,322 INFO ipython === session end ===

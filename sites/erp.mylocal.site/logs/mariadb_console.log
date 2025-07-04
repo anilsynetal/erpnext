@@ -13,7 +13,53 @@ bench\040--site\040erp.mylocal.site\040uninstall-app\040national_aviation
 exit
 exit;
 bench\040--site\040erp.mylocal.site\040uninstall-app\040national_aviation\040exit\040exit;
-DELETE\040FROM\040\040\-` tabModule\040Def \040\-`\040WHERE\040app_name\040=\040
+DELETE\040FROM\040\040-` tabModule\040Def \040-`\040WHERE\040app_name\040=\040
 DELETE\040FROM\040tabModule\040Def\040\040WHERE\040app_name\040="national_aviation"
 EXIT;
-DELETE\040FROM\040\040\-` tabModule\040Def \040\-`\040WHERE\040app_name\040=\040\040DELETE\040FROM\040tabModule\040Def\040\040WHERE\040app_name\040="national_aviation"\040EXIT;
+DELETE\040FROM\040\040-` tabModule\040Def \040-`\040WHERE\040app_name\040=\040\040DELETE\040FROM\040tabModule\040Def\040\040WHERE\040app_name\040="national_aviation"\040EXIT;
+SELECT\040*\040FROM\040tabModule\040WHERE\040module_name\040IN\040('national_aviation',\040'item_history');
+DELETE\040FROM\040tabSingles\040WHERE\040doctype='System\040Settings'\040AND\040field='app_include'\040AND\040value\040LIKE\040'%national_aviation%';
+DELETE\040FROM\040tabSingles\040WHERE\040doctype='System\040Settings'\040AND\040field='app_include'\040AND\040value\040LIKE\040'%item_history%';
+SELECT\040*\040FROM\040tabModuleDef\040WHERE\040name\040IN\040('national_aviation',\040'item_history');
+SHOW\040DATABASES;
+USE\040_20401f78010b3945;
+SELECT\040*\040FROM\040tabModuleDef\040WHERE\040name\040IN\040('national_aviation',\040'item_history');
+SHOW\040TABLES;
+USE\040_20401f78010b3945;
+SELECT\040*\040FROM\040tabModuleDef\040WHERE\040name\040IN\040('national_aviation',\040'item_history');
+DELETE\040FROM\040tabModuleDef\040WHERE\040name\040IN\040('national_aviation',\040'item_history');
+SHOW\040TABLES\040LIKE\040'tabModuleDef';
+bench\040--site\040erp.mylocal.site\040list-apps
+exit
+q
+\134q
+USE\040_20401f78010b3945;
+SHOW\040TABLES\040LIKE\040'tabModuleDef';
+DELETE\040FROM\040tabModuleDef\040WHERE\040name\040IN\040('national_aviation',\040'item_history');
+SELECT\040*\040FROM\040tabSingles\040WHERE\040value\040LIKE\040'%national_aviation%'\040OR\040value\040LIKE\040'%item_history%';
+DELETE\040FROM\040tabSingles\040WHERE\040value\040LIKE\040'%national_aviation%'\040OR\040value\040LIKE\040'%item_history%';
+COMMIT;
+redis-cli\040-p\04013000\040flushall
+redis-cli\040-p\04011000\040flushall
+exit
+q
+\134
+\134q
+SELECT\040*\040FROM\040`tabModule\040Def`\040WHERE\040module_name\040=\040'National\040Aviation';
+SELECT\040*\040FROM\040`ModuleDef`\040WHERE\040module_name\040=\040'National\040Aviation';
+SHOW\040TABLES;
+SELECT\040*\040FROM\040`tabDefaultValue`\040WHERE\040defkey\040=\040'installed_apps'\040AND\040defvalue\040LIKE\040'%national_aviation%';
+LOCK\040TABLES\040`tabDefaultValue`\040WRITE;
+SET\040autocommit=0;
+UPDATE\040`tabDefaultValue`
+SET\040defvalue\040=\040'["frappe",\040"erpnext",\040"part_research"]'
+WHERE\040name\040=\040'dckpp21kcd'\040AND\040defkey\040=\040'installed_apps';
+UPDATE\040`tabDefaultValue`\040SET\040defvalue\040=\040'["frappe",\040"erpnext",\040"part_research"]'\040WHERE\040name\040=\040'dckpp21kcd'\040AND\040defkey\040=\040'installed_apps';
+COMMIT;
+UNLOCK\040TABLES;
+SELECT\040*\040FROM\040`tabDefaultValue`\040WHERE\040defkey\040=\040'installed_apps'\040AND\040defvalue\040LIKE\040'%national_aviation%';
+SHOW\040TABLES\040LIKE\040'tabModule\040Def';
+SHOW\040TABLES\040LIKE\040'ModuleDef';
+SHOW\040TABLES\040LIKE\040'tabModuleDef';
+SELECT\040*\040FROM\040`tabModuleDef`\040LIMIT\0405;
+RENAME\040TABLE\040`tabModuleDef`\040TO\040`tabModule\040Def`;

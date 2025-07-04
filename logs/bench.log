@@ -104,3 +104,147 @@
 2025-07-02 21:34:02,770 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
 2025-07-02 21:34:02,777 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
 2025-07-02 21:34:02,777 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 21:36:57,302 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 21:36:58,245 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 21:36:58,251 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 21:36:58,257 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 21:36:58,261 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 21:41:03,507 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site list-apps
+2025-07-02 21:43:20,924 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site mariadb
+2025-07-02 21:44:21,641 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-02 21:44:23,404 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-website-cache
+2025-07-02 21:44:30,337 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site migrate
+2025-07-02 21:45:13,911 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site console
+2025-07-02 21:48:45,915 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --site erp.mylocal.site mariadb
+2025-07-02 21:57:56,284 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-02 21:57:58,747 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-website-cache
+2025-07-02 21:59:34,056 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 21:59:34,788 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 21:59:34,828 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 21:59:34,833 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 21:59:34,837 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 22:38:35,772 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 22:38:36,489 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 22:38:36,497 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 22:38:36,497 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 22:38:36,498 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 22:43:58,243 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 22:43:59,193 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 22:43:59,194 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 22:43:59,198 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 22:43:59,211 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 23:02:32,474 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site mariadb
+2025-07-02 23:09:53,744 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 23:09:54,493 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 23:09:54,496 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 23:09:54,512 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 23:09:54,515 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 23:13:53,203 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench update --patch
+2025-07-02 23:13:55,309 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-07-02 23:14:12,183 WARNING /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench update --patch executed with exit code 1
+2025-07-02 23:14:12,727 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site all migrate
+2025-07-02 23:14:13,745 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site all bench clear-cache
+2025-07-02 23:14:14,511 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site all bench clear-website-cache
+2025-07-02 23:14:24,351 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 23:14:25,066 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 23:14:25,074 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-02 23:14:25,074 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 23:14:25,090 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 23:19:06,954 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-02 23:19:07,823 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-02 23:19:07,823 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-02 23:19:07,825 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-02 23:19:07,839 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 12:00:01,534 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-07-03 13:23:01,391 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site your_site_name migrate
+2025-07-03 13:23:02,591 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site your_site_name clear-cache
+2025-07-03 13:23:03,614 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site your_site_name build
+2025-07-03 13:23:48,750 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site migrate
+2025-07-03 13:23:57,139 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 13:23:58,489 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site build
+2025-07-03 13:24:57,680 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 13:26:30,047 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 13:26:30,859 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 13:26:30,859 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 13:26:30,868 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 13:26:30,878 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 13:27:15,714 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench setup redis
+2025-07-03 13:27:16,384 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench setup socketio
+2025-07-03 13:27:16,801 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench setup supervisor
+2025-07-03 13:27:16,819 WARNING /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench setup supervisor executed with exit code 1
+2025-07-03 13:27:17,248 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench setup nginx
+2025-07-03 13:27:17,724 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 13:27:36,581 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench clear-cache
+2025-07-03 13:27:48,679 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 13:27:49,493 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 13:27:49,497 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 13:27:49,501 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 13:27:49,505 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 13:32:51,782 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site console
+2025-07-03 13:36:15,874 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 13:36:40,761 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 13:36:42,696 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 13:36:43,538 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 13:36:43,553 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 13:36:43,554 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 13:36:43,579 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 13:42:39,442 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 13:42:58,703 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 13:43:00,057 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 13:43:00,730 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 13:43:00,774 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 13:43:00,774 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 13:43:00,787 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 13:45:03,113 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 13:45:21,224 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 13:45:32,533 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 13:45:33,215 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 13:45:33,216 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 13:45:33,228 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 13:45:33,242 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 14:02:58,001 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 14:02:59,161 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 14:03:27,223 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 14:03:28,150 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 14:03:28,151 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 14:03:28,151 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 14:03:28,167 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 14:45:50,267 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 14:45:51,491 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 15:28:47,299 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site console
+2025-07-03 15:29:29,056 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 15:29:30,268 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 15:29:30,998 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 15:29:30,998 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 15:29:31,000 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 15:29:31,005 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 15:32:07,117 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 15:32:09,070 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 15:32:17,674 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench --site erp.mylocal.site clear-cache
+2025-07-03 15:32:18,718 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench build
+2025-07-03 15:32:41,940 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 15:32:42,765 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 15:32:42,767 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 15:32:42,775 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 15:32:42,776 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 15:37:57,082 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench clear-cache
+2025-07-03 15:38:20,288 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 15:38:21,265 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 15:38:21,272 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 15:38:21,272 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 15:38:21,274 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 15:41:40,884 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench migrate
+2025-07-03 15:41:42,872 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench clear-cache
+2025-07-03 15:41:47,094 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench start
+2025-07-03 15:41:47,897 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench serve --port 8000
+2025-07-03 15:41:47,901 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench worker
+2025-07-03 15:41:47,913 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench schedule
+2025-07-03 15:41:47,914 INFO /Users/anilprajapati/frappe/erpnext-bench/env/bin/bench watch
+2025-07-03 18:00:00,976 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-07-04 00:00:01,059 INFO /Users/anilprajapati/Library/Python/3.9/bin/bench --verbose --site all backup

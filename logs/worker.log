@@ -1835,3 +1835,318 @@
 2025-07-02 21:25:50,377 Subscribing to channel rq:pubsub:2b9fb3d1e01a470eb3e30fb906a36a85
 2025-07-02 21:25:50,378 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
 2025-07-02 21:28:27,889 Worker 2b9fb3d1e01a470eb3e30fb906a36a85 [PID 83503]: warm shut down requested
+2025-07-02 21:36:59,394 Worker rq:worker:a3916ce44003423c98f8a20cc18dbf38 started with PID 85198, version 1.15.1
+2025-07-02 21:36:59,395 Subscribing to channel rq:pubsub:a3916ce44003423c98f8a20cc18dbf38
+2025-07-02 21:36:59,396 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 21:36:59,396 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 21:36:59,397 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 21:36:59,398 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 21:38:04,447 Worker a3916ce44003423c98f8a20cc18dbf38 [PID 85198]: warm shut down requested
+2025-07-02 21:38:04,456 Unsubscribing from channel rq:pubsub:a3916ce44003423c98f8a20cc18dbf38
+2025-07-02 21:59:35,795 Worker rq:worker:a917e4ccdba340b0977328f4f81e85f0 started with PID 89460, version 1.15.1
+2025-07-02 21:59:35,795 Subscribing to channel rq:pubsub:a917e4ccdba340b0977328f4f81e85f0
+2025-07-02 21:59:35,796 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 21:59:35,797 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 21:59:35,798 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 21:59:35,799 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 22:02:50,082 Worker a917e4ccdba340b0977328f4f81e85f0 [PID 89460]: warm shut down requested
+2025-07-02 22:38:37,500 Worker rq:worker:11bd12ef4ef34936bbf40320f45c6185 started with PID 94397, version 1.15.1
+2025-07-02 22:38:37,501 Subscribing to channel rq:pubsub:11bd12ef4ef34936bbf40320f45c6185
+2025-07-02 22:38:37,501 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 22:38:37,502 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 22:38:37,503 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 22:38:37,504 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 22:43:53,860 Worker 11bd12ef4ef34936bbf40320f45c6185 [PID 94397]: warm shut down requested
+2025-07-02 22:44:00,816 Worker rq:worker:e3bac7d329624a27a7e846f1ac230008 started with PID 95016, version 1.15.1
+2025-07-02 22:44:00,816 Subscribing to channel rq:pubsub:e3bac7d329624a27a7e846f1ac230008
+2025-07-02 22:44:00,818 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 22:57:31,092 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 22:57:31,143 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 22:57:31,145 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 23:09:51,463 Worker e3bac7d329624a27a7e846f1ac230008 [PID 95016]: warm shut down requested
+2025-07-02 23:09:55,556 Worker rq:worker:a37fe34d0b0343928e50fdba7f721510 started with PID 96942, version 1.15.1
+2025-07-02 23:09:55,556 Subscribing to channel rq:pubsub:a37fe34d0b0343928e50fdba7f721510
+2025-07-02 23:09:55,557 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 23:13:50,587 Worker a37fe34d0b0343928e50fdba7f721510 [PID 96942]: warm shut down requested
+2025-07-02 23:14:26,368 Worker rq:worker:61c452fe280145c3abf1b324d5ee1590 started with PID 97632, version 1.15.1
+2025-07-02 23:14:26,368 Subscribing to channel rq:pubsub:61c452fe280145c3abf1b324d5ee1590
+2025-07-02 23:14:26,370 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 23:14:26,371 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 23:14:26,373 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 23:14:26,375 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-02 23:19:04,627 Worker 61c452fe280145c3abf1b324d5ee1590 [PID 97632]: warm shut down requested
+2025-07-02 23:19:08,924 Worker rq:worker:4f499aab275746c5afad8b4f9e954810 started with PID 98084, version 1.15.1
+2025-07-02 23:19:08,925 Subscribing to channel rq:pubsub:4f499aab275746c5afad8b4f9e954810
+2025-07-02 23:19:08,926 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-02 23:32:39,159 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-02 23:32:39,206 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-02 23:32:39,212 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 00:18:54,369 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 00:18:54,511 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 00:18:54,529 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 01:49:38,208 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 01:49:38,267 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 01:49:38,293 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 03:49:47,274 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 03:49:47,380 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 03:49:47,388 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 04:10:36,642 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 04:10:36,796 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 04:10:36,804 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 05:27:42,460 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 05:27:42,466 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 05:27:42,469 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 06:01:00,342 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 06:01:00,386 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 06:01:00,449 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 06:42:29,422 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 06:42:29,531 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 06:42:29,534 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 07:33:49,866 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 07:33:50,400 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 07:33:50,406 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 07:51:13,901 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 07:51:13,942 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 07:51:13,945 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 08:29:54,247 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 08:29:54,457 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 08:29:54,466 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 08:57:35,083 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 08:57:35,098 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 08:57:35,614 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 09:25:48,208 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 09:25:48,262 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 09:25:48,298 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 09:51:21,999 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 09:51:22,025 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 09:51:22,051 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 10:24:06,802 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 10:24:06,964 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 10:24:06,981 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 10:40:13,242 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 10:40:13,359 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 10:40:13,366 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 11:03:07,001 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 11:03:07,171 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 11:03:07,194 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 11:30:07,436 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 11:30:07,463 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 11:30:07,466 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 11:57:08,358 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 11:57:08,557 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 11:57:08,627 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 12:24:09,066 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 12:24:09,091 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 12:24:09,094 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 12:51:09,276 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 12:51:09,284 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 12:51:09,287 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 13:18:09,525 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 13:18:09,534 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 13:18:09,536 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 13:23:56,693 Users-anilprajapati-frappe-erpnext-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.search.website_search.build_index_for_all_routes', kwargs={}, method=<function build_index_for_all_routes at 0x106d5d300>, site='erp.mylocal.site', user='Administrator') (erp.mylocal.site::eefb741a-9838-4f1d-a349-078b7b38875a)
+Retrieving Routes                   : [=                                       ] 2%Retrieving Routes                   : [==                                      ] 5%Retrieving Routes                   : [===                                     ] 8%Retrieving Routes                   : [====                                    ] 11%Retrieving Routes                   : [=====                                   ] 13%Retrieving Routes                   : [======                                  ] 16%Retrieving Routes                   : [=======                                 ] 19%Retrieving Routes                   : [========                                ] 22%Retrieving Routes                   : [==========                              ] 25%Retrieving Routes                   : [===========                             ] 27%Retrieving Routes                   : [============                            ] 30%Retrieving Routes                   : [=============                           ] 33%Retrieving Routes                   : [==============                          ] 36%Retrieving Routes                   : [===============                         ] 38%Retrieving Routes                   : [================                        ] 41%Retrieving Routes                   : [=================                       ] 44%Retrieving Routes                   : [==================                      ] 47%Retrieving Routes                   : [====================                    ] 50%Retrieving Routes                   : [=====================                   ] 52%Retrieving Routes                   : [======================                  ] 55%Retrieving Routes                   : [=======================                 ] 58%Retrieving Routes                   : [========================                ] 61%Retrieving Routes                   : [=========================               ] 63%Retrieving Routes                   : [==========================              ] 66%Retrieving Routes                   : [===========================             ] 69%Retrieving Routes                   : [============================            ] 72%Retrieving Routes                   : [==============================          ] 75%Retrieving Routes                   : [===============================         ] 77%Retrieving Routes                   : [================================        ] 80%Retrieving Routes                   : [=================================       ] 83%Retrieving Routes                   : [==================================      ] 86%Retrieving Routes                   : [===================================     ] 88%Retrieving Routes                   : [====================================    ] 91%Retrieving Routes                   : [=====================================   ] 94%Retrieving Routes                   : [======================================  ] 97%Retrieving Routes                   : [========================================] 100%
+Building Index                      : [=                                       ] 2%Building Index                      : [==                                      ] 5%Building Index                      : [===                                     ] 8%Building Index                      : [====                                    ] 11%Building Index                      : [=====                                   ] 13%Building Index                      : [======                                  ] 16%Building Index                      : [=======                                 ] 19%Building Index                      : [========                                ] 22%Building Index                      : [==========                              ] 25%Building Index                      : [===========                             ] 27%Building Index                      : [============                            ] 30%Building Index                      : [=============                           ] 33%Building Index                      : [==============                          ] 36%Building Index                      : [===============                         ] 38%Building Index                      : [================                        ] 41%Building Index                      : [=================                       ] 44%Building Index                      : [==================                      ] 47%Building Index                      : [====================                    ] 50%Building Index                      : [=====================                   ] 52%Building Index                      : [======================                  ] 55%Building Index                      : [=======================                 ] 58%Building Index                      : [========================                ] 61%Building Index                      : [=========================               ] 63%Building Index                      : [==========================              ] 66%Building Index                      : [===========================             ] 69%Building Index                      : [============================            ] 72%Building Index                      : [==============================          ] 75%Building Index                      : [===============================         ] 77%Building Index                      : [================================        ] 80%Building Index                      : [=================================       ] 83%Building Index                      : [==================================      ] 86%Building Index                      : [===================================     ] 88%Building Index                      : [====================================    ] 91%Building Index                      : [=====================================   ] 94%Building Index                      : [======================================  ] 97%Building Index                      : [========================================] 100%2025-07-03 13:24:14,234 Users-anilprajapati-frappe-erpnext-bench:long: Job OK (erp.mylocal.site::eefb741a-9838-4f1d-a349-078b7b38875a)
+2025-07-03 13:24:14,235 Result is kept for 600 seconds
+2025-07-03 13:24:43,657 Worker 4f499aab275746c5afad8b4f9e954810 [PID 98084]: warm shut down requested
+2025-07-03 13:24:43,677 Unsubscribing from channel rq:pubsub:4f499aab275746c5afad8b4f9e954810
+2025-07-03 13:26:31,668 Worker rq:worker:20f34b6220b6437c8620e3fb3c34145d started with PID 12660, version 1.15.1
+2025-07-03 13:26:31,668 Subscribing to channel rq:pubsub:20f34b6220b6437c8620e3fb3c34145d
+2025-07-03 13:26:31,669 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 13:27:14,226 Worker 20f34b6220b6437c8620e3fb3c34145d [PID 12660]: warm shut down requested
+2025-07-03 13:27:14,233 Unsubscribing from channel rq:pubsub:20f34b6220b6437c8620e3fb3c34145d
+2025-07-03 13:27:50,273 Worker rq:worker:1362339c7f8544cb93c9794f51460421 started with PID 13136, version 1.15.1
+2025-07-03 13:27:50,273 Subscribing to channel rq:pubsub:1362339c7f8544cb93c9794f51460421
+2025-07-03 13:27:50,274 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 13:36:10,173 Worker 1362339c7f8544cb93c9794f51460421 [PID 13136]: warm shut down requested
+2025-07-03 13:36:44,513 Worker rq:worker:cec08ecb2c7c498485e9008bdff249d2 started with PID 14085, version 1.15.1
+2025-07-03 13:36:44,513 Subscribing to channel rq:pubsub:cec08ecb2c7c498485e9008bdff249d2
+2025-07-03 13:36:44,514 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 13:36:44,515 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 13:36:44,517 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 13:36:44,518 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 13:42:37,592 Worker cec08ecb2c7c498485e9008bdff249d2 [PID 14085]: warm shut down requested
+2025-07-03 13:43:01,490 Worker rq:worker:1c0c38d104364365b326342781943f8b started with PID 14834, version 1.15.1
+2025-07-03 13:43:01,490 Subscribing to channel rq:pubsub:1c0c38d104364365b326342781943f8b
+2025-07-03 13:43:01,491 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 13:44:57,496 Worker 1c0c38d104364365b326342781943f8b [PID 14834]: warm shut down requested
+2025-07-03 13:44:57,514 Unsubscribing from channel rq:pubsub:1c0c38d104364365b326342781943f8b
+2025-07-03 13:45:33,985 Worker rq:worker:1aaf0556d5574c568405f5bc457c27d8 started with PID 15349, version 1.15.1
+2025-07-03 13:45:33,985 Subscribing to channel rq:pubsub:1aaf0556d5574c568405f5bc457c27d8
+2025-07-03 13:45:33,986 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 13:54:48,743 Users-anilprajapati-frappe-erpnext-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Workspace', 'name': 'Part Research'}, method='frappe.model.delete_doc.delete_dynamic_links', site='erp.mylocal.site', user='Administrator') (erp.mylocal.site::1d15a46b-6d8c-467a-9918-d22c6f744cc6)
+2025-07-03 13:54:48,861 Users-anilprajapati-frappe-erpnext-bench:default: Job OK (erp.mylocal.site::1d15a46b-6d8c-467a-9918-d22c6f744cc6)
+2025-07-03 13:54:48,862 Result is kept for 600 seconds
+2025-07-03 14:01:33,937 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 14:01:33,948 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 14:01:33,950 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 14:02:54,819 Worker 1aaf0556d5574c568405f5bc457c27d8 [PID 15349]: warm shut down requested
+2025-07-03 14:03:29,311 Worker rq:worker:e2cc40c4e44c4c8189d0f6c0111b740e started with PID 16944, version 1.15.1
+2025-07-03 14:03:29,312 Subscribing to channel rq:pubsub:e2cc40c4e44c4c8189d0f6c0111b740e
+2025-07-03 14:03:29,312 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 14:20:16,199 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 14:20:16,444 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 14:20:16,552 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 14:35:28,333 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 14:35:28,391 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 14:35:28,397 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 14:45:47,088 Worker e2cc40c4e44c4c8189d0f6c0111b740e [PID 16944]: warm shut down requested
+2025-07-03 15:29:31,765 Worker rq:worker:a2755f457ee242be980a232a9dbd0d06 started with PID 18861, version 1.15.1
+2025-07-03 15:29:31,766 Subscribing to channel rq:pubsub:a2755f457ee242be980a232a9dbd0d06
+2025-07-03 15:29:31,767 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 15:29:31,767 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 15:29:31,769 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 15:29:31,770 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 15:31:23,286 Users-anilprajapati-frappe-erpnext-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Workspace', 'name': 'Part Research'}, method='frappe.model.delete_doc.delete_dynamic_links', site='erp.mylocal.site', user='Administrator') (erp.mylocal.site::5f44a984-3278-49ea-bf91-ace87ade131d)
+2025-07-03 15:31:23,380 Users-anilprajapati-frappe-erpnext-bench:default: Job OK (erp.mylocal.site::5f44a984-3278-49ea-bf91-ace87ade131d)
+2025-07-03 15:31:23,380 Result is kept for 600 seconds
+2025-07-03 15:32:05,406 Worker a2755f457ee242be980a232a9dbd0d06 [PID 18861]: warm shut down requested
+2025-07-03 15:32:05,409 Unsubscribing from channel rq:pubsub:a2755f457ee242be980a232a9dbd0d06
+2025-07-03 15:32:43,977 Worker rq:worker:906a0273b94042178be02fc8d02a0275 started with PID 19550, version 1.15.1
+2025-07-03 15:32:43,977 Subscribing to channel rq:pubsub:906a0273b94042178be02fc8d02a0275
+2025-07-03 15:32:43,978 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 15:37:13,776 Users-anilprajapati-frappe-erpnext-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Workspace', 'name': 'Part Research'}, method='frappe.model.delete_doc.delete_dynamic_links', site='erp.mylocal.site', user='Administrator') (erp.mylocal.site::a7a6b400-b7e3-49db-85f2-db0440e66c9a)
+2025-07-03 15:37:13,868 Users-anilprajapati-frappe-erpnext-bench:default: Job OK (erp.mylocal.site::a7a6b400-b7e3-49db-85f2-db0440e66c9a)
+2025-07-03 15:37:13,868 Result is kept for 600 seconds
+2025-07-03 15:37:55,528 Worker 906a0273b94042178be02fc8d02a0275 [PID 19550]: warm shut down requested
+2025-07-03 15:37:55,536 Unsubscribing from channel rq:pubsub:906a0273b94042178be02fc8d02a0275
+2025-07-03 15:38:22,253 Worker rq:worker:d5737157149a41f7b6128dfb65ca1240 started with PID 20098, version 1.15.1
+2025-07-03 15:38:22,254 Subscribing to channel rq:pubsub:d5737157149a41f7b6128dfb65ca1240
+2025-07-03 15:38:22,255 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 15:40:20,643 Users-anilprajapati-frappe-erpnext-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Workspace', 'name': 'Part Research'}, method='frappe.model.delete_doc.delete_dynamic_links', site='erp.mylocal.site', user='Administrator') (erp.mylocal.site::f5d0a10f-9b38-4c43-a48c-4547c46d66e8)
+2025-07-03 15:40:20,726 Users-anilprajapati-frappe-erpnext-bench:default: Job OK (erp.mylocal.site::f5d0a10f-9b38-4c43-a48c-4547c46d66e8)
+2025-07-03 15:40:20,727 Result is kept for 600 seconds
+2025-07-03 15:41:39,011 Worker d5737157149a41f7b6128dfb65ca1240 [PID 20098]: warm shut down requested
+2025-07-03 15:41:39,023 Unsubscribing from channel rq:pubsub:d5737157149a41f7b6128dfb65ca1240
+2025-07-03 15:41:49,033 Worker rq:worker:04a7c4aad77d4022b101e42af77739e1 started with PID 20560, version 1.15.1
+2025-07-03 15:41:49,033 Subscribing to channel rq:pubsub:04a7c4aad77d4022b101e42af77739e1
+2025-07-03 15:41:49,035 *** Listening on Users-anilprajapati-frappe-erpnext-bench:short, Users-anilprajapati-frappe-erpnext-bench:default, Users-anilprajapati-frappe-erpnext-bench:long...
+2025-07-03 15:55:19,171 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 15:55:19,216 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 15:55:19,218 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 16:22:19,444 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 16:22:19,463 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 16:22:19,466 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 16:49:19,789 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 16:49:19,805 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 16:49:19,815 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 17:19:55,056 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 17:19:55,064 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 17:19:55,068 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 17:45:41,160 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 17:45:41,163 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 17:45:41,164 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 18:12:41,431 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 18:12:41,439 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 18:12:41,442 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 18:39:41,819 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 18:39:41,828 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 18:39:41,835 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 19:06:42,142 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 19:06:42,145 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 19:06:42,148 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 19:34:33,591 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 19:34:33,610 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 19:34:33,614 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 19:51:40,935 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 19:51:40,939 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 19:51:40,941 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 20:36:39,039 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 20:36:39,045 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 20:36:39,049 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 21:35:57,948 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 21:35:57,984 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 21:35:57,998 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 22:36:58,955 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 22:36:58,985 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 22:36:58,987 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 23:11:35,604 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 23:11:35,680 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 23:11:35,684 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-03 23:38:35,915 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-03 23:38:35,922 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-03 23:38:35,923 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 00:10:57,325 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 00:10:57,334 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 00:10:57,339 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 00:26:30,343 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 00:26:30,355 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 00:26:30,373 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 00:57:45,954 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 00:57:45,966 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 00:57:45,973 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 01:24:46,159 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 01:24:46,168 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 01:24:46,170 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 03:51:33,918 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 03:51:33,964 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 03:51:33,968 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 04:49:41,861 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 04:49:41,872 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 04:49:41,877 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 05:21:05,517 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 05:21:05,542 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 05:21:05,548 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 06:01:05,838 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 06:01:05,849 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 06:01:05,854 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 08:01:27,885 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 08:01:27,903 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 08:01:27,920 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 08:52:19,290 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 08:52:19,314 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 08:52:19,318 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 09:23:36,231 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 09:23:36,317 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 09:23:36,320 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 09:46:47,733 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 09:46:47,738 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 09:46:47,741 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 10:16:04,551 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 10:16:04,553 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 10:16:04,557 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 10:50:51,520 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 10:50:51,592 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 10:50:51,598 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 11:14:06,896 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 11:14:06,942 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 11:14:06,980 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 11:41:07,193 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 11:41:07,211 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 11:41:07,213 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 12:01:33,529 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 12:01:33,578 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 12:01:33,587 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 12:28:33,805 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 12:28:33,809 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 12:28:33,810 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 12:56:30,834 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 12:56:30,855 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 12:56:30,861 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 13:31:24,301 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 13:31:24,317 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 13:31:24,323 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 13:58:24,604 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 13:58:24,607 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 13:58:24,610 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 14:25:18,732 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 14:25:18,849 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 14:25:18,862 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 14:51:00,755 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 14:51:00,761 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 14:51:00,764 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 15:18:01,077 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 15:18:01,088 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 15:18:01,089 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 15:45:01,324 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 15:45:01,326 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 15:45:01,329 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 16:01:25,502 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 16:01:25,519 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 16:01:25,532 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 16:28:25,770 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 16:28:25,775 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 16:28:25,776 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
+2025-07-04 16:55:25,872 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:short
+2025-07-04 16:55:25,880 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:default
+2025-07-04 16:55:25,882 Cleaning registries for queue: Users-anilprajapati-frappe-erpnext-bench:long
